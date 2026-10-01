@@ -1,10 +1,16 @@
-# ===== 操作系统 / 编辑器 =====
+# ===== 操作系统 / 编辑器 / IDE =====
 .DS_Store
 Thumbs.db
 desktop.ini
 *.swp
 *.swo
 *~
+.idea/
+.vscode/
+*.iml
+
+# ===== WorkBuddy 内部项目数据（非源码，不入库） =====
+.workbuddy/
 
 # ===== 依赖 / 构建产物 =====
 node_modules/
